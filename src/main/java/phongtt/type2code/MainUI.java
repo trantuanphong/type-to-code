@@ -15,7 +15,6 @@ public class MainUI {
     }
 
     private void createUI() {
-
         frame = new JFrame("Type2Code - Loader");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(700, 320);
