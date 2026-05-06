@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "title": "Hello World",
+      "content": "public class HelloWorld {\n    public static void main(String[] args) {\n        System.out.println(\"Hello World\");\n    }\n}"
+    },
+    {
+      "title": "Simple Calculator",
+      "content": "class Calculator {\n    int add(int a, int b) {\n        return a + b;\n    }\n\n    int subtract(int a, int b) {\n        return a - b;\n    }\n}"
+    },
+    {
+      "title": "If-Else Example",
+      "content": "public class CheckNumber {\n    public static void main(String[] args) {\n        int x = 10;\n\n        if (x > 0) {\n            System.out.println(\"Positive\");\n        } else {\n            System.out.println(\"Non-positive\");\n        }\n    }\n}"
+    },
+    {
+      "title": "Loop Example",
+      "content": "public class LoopExample {\n    public static void main(String[] args) {\n        for (int i = 0; i < 5; i++) {\n            System.out.println(\"i = \" + i);\n        }\n    }\n}"
+    },
+    {
+      "title": "Array Sum",
+      "content": "public class ArraySum {\n    public static void main(String[] args) {\n        int[] arr = {1, 2, 3, 4, 5};\n        int sum = 0;\n\n        for (int num : arr) {\n            sum += num;\n        }\n\n        System.out.println(\"Sum = \" + sum);\n    }\n}"
+    }
+  ]
+}

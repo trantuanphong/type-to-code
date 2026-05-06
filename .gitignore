@@ -1,0 +1,70 @@
+
+# =========================
+# Java compiled files
+# =========================
+*.class
+*.log
+
+# =========================
+# Build folders
+# =========================
+/out/
+/target/
+/bin/
+/build/
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iws
+*.iml
+*.ipr
+*.iws
+
+# =========================
+# Eclipse
+# =========================
+.project
+.classpath
+.settings/
+
+# =========================
+# NetBeans
+# =========================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+
+# =========================
+# Mac / OS files
+# =========================
+.DS_Store
+
+# =========================
+# Windows files
+# =========================
+Thumbs.db
+
+# =========================
+# Logs & temp
+# =========================
+*.tmp
+*.swp
+*.bak
+
+# =========================
+# Maven (if used)
+# =========================
+/pom.xml.tag
+/pom.xml.releaseBackup
+/pom.xml.versionsBackup
+/release.properties
+
+# =========================
+# Gradle (if used)
+# =========================
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
